@@ -1,0 +1,39 @@
+/*
+    Контент занимает 70% ширины страницы.
+    Контент выровнен по середине.
+    Заголовки всех уровней выполнены шрифтом без засечек.
+    Верхний отступ заголовков установлен больше нижнего (например, 1.5em), чтобы соблюсти правило внутреннего и внешнего.
+    Заголовки первого уровня имеют размер 32px.
+    Таблицы имеют непрерывные границы чёрного цвета толщиной 1px.
+    Подписи под картинками выполены курсивом.
+    Картинки обтекаются текстом. Картинки справа, текст слева.
+*/
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+h1 {
+    font-size: 32px;
+}
+h1, h2, h3 {
+    font-family: sans-serif;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+table, tr, td {
+    border: 1px solid black;
+}
+td {
+    text-align: center;
+}
+.TEconomy td{
+    text-align: left;
+}
+figcaption {
+    font-style: italic;
+}
+figure {
+    float: right;
+}
